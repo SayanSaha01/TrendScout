@@ -1,0 +1,14 @@
+seaborn
+snscrape
+datetime
+tensorflow
+re
+nltk
+keras
+keras_prepocessing
+streamlit
+pandas
+pickle
+numpy
+matplotlib
+sklearn
