@@ -2,7 +2,6 @@ seaborn
 snscrape
 datetime
 tensorflow
-re
 nltk
 keras
 keras_prepocessing
