@@ -18,6 +18,7 @@ Twitter sentiment analysis is a powerful tool that can help brands, influencers,
 In conclusion, Twitter sentiment analysis is a powerful tool that can help brands, influencers, and celebrities in marketing and leveraging their products/brands to get an image makeover. By understanding their target audience, measuring brand perception, identifying influencers, crisis management, and competitor analysis, they can create data-driven marketing campaigns and content that resonates with their audience, resulting in better engagement and conversions.
 
 Fig 1 - System-Flow
+
 The user interface for it is provided via a web app with key instructions and features.
 Tweets could be fetched within the range 1 to 100, these tweets can be ordered via two methods by
 hashtag/text-search
@@ -25,16 +26,21 @@ hashtag/text-search
 ![Screenshot (60)](https://user-images.githubusercontent.com/75988493/224557014-2c05b539-dbbb-45d3-93d7-0a2255d37ab1.png)
 
 Fig 2 - Landing page
+
 The tweets after being retrieved in the backend in the csv/tabular form is fed into the corresponding fields in the frontend thereby producing a powerful visualization dashboard
 
-Solarized dark             |  Solarized Ocean         |  Solarized Orange  
-:-------------------------:|:-------------------------: --------------------
-![image](https://user-images.githubusercontent.com/75988493/224601020-e066e210-2473-4a10-9137-4704944b9260.png) |  ![image](https://user-images.githubusercontent.com/75988493/224601206-07c6f24a-1396-4317-99ed-e88809b81507.png) | ![image](https://user-images.githubusercontent.com/75988493/224601490-68be5ac5-58b8-4e97-b406-e4c99887470b.png)
+Solarized dark             |  Solarized Ocean         | 
+:-------------------------:|:-------------------------: 
+![image](https://user-images.githubusercontent.com/75988493/224601020-e066e210-2473-4a10-9137-4704944b9260.png) |  ![image](https://user-images.githubusercontent.com/75988493/224601206-07c6f24a-1396-4317-99ed-e88809b81507.png) 
 
 Fig 3 - Username profile metrics and sentiment analysis
+
 The dashboard can be divided into different sections for easy understanding;
 the first section shows the user’s profile metrics like the count of the user’s friends, followers, number of tweets and number of tweets liked by the user
 the second section includes classifying the sentiments of the tweets into three categories namely – positive, negative and neutral in the form of a pie chart (the model training/testing details can be found here)
+
+![image](https://user-images.githubusercontent.com/75988493/224602085-4e81bbaf-e100-4823-b365-a7d5605d6a73.png)
+
 
 
 
