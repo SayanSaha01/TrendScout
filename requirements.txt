@@ -4,7 +4,6 @@ datetime
 tensorflow
 nltk
 keras
-keras_preprocessing==1.1.2
 streamlit
 pandas
 pickle
