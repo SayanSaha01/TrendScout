@@ -10,3 +10,4 @@ pickle
 numpy
 matplotlib
 sklearn
+keras_preprocessing==1.1.2
