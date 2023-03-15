@@ -4,10 +4,10 @@ datetime
 tensorflow
 nltk
 keras
-keras_preprocessing==1.1.2
 streamlit
 pandas
 pickle
 numpy
 matplotlib
 sklearn
+keras_preprocessing==1.1.2
