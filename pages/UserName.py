@@ -2,8 +2,29 @@ import snscrape.modules.twitter as sntwitter
 import streamlit as st
 import streamlit.components.v1 as components
 import requests
+from email.message import EmailMessage
+from streamlit_lottie import st_lottie
+from st_aggrid import AgGrid
+from datetime import datetime
+import streamlit.components.v1 as components
+import altair as alt
+
 st.set_page_config(layout="wide")
 
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("How engaging are your posts?")
+    st.markdown("You can monitor the performance of your posts over time by analyzing their engagements, impressions, and the percentage of engagement per impression.")
+    st.markdown("By clicking on any data point, you will be redirected to the link of the corresponding post.")
+with col2:
+    def load_lottieurl(url:str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+    lottie_animation = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_cdu97cbh.json")
+    st_lottie(lottie_animation, key="animation", height=200, width=200)
+    
 # Get the Twitter username input from the user
 username = st.text_input("Enter the Twitter username: ")
 
