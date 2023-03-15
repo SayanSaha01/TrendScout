@@ -10,3 +10,4 @@ matplotlib
 sklearn
 keras_preprocessing
 streamlit_lottie
+plotly
