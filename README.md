@@ -48,4 +48,23 @@ the second section includes classifying the sentiments of the tweets into three 
 <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> 
 
 
+**Installation**
+1. Fork the Project
+2. Clone your forked repository on your host machine  
+
+```bash
+  git clone <https://github.com/SayanSaha01/TrendScout.git>
+  cd TrendScout
+```
+
+3. **To install the dependencies and packages on your host machine**
+```python
+pip install -r requirements.txt
+```
+
+## **Run the program**
+
+```bash
+  py -m streamlit run TrendScout.py
+```
 
