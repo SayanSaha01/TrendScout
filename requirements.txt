@@ -4,10 +4,9 @@ datetime
 tensorflow
 nltk
 keras
-streamlit
 pandas
 numpy
 matplotlib
 sklearn
-keras_preprocessing==1.1.2
+keras_preprocessing
 streamlit_lottie
