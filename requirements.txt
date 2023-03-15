@@ -6,7 +6,6 @@ nltk
 keras
 streamlit
 pandas
-pickle
 numpy
 matplotlib
 sklearn
