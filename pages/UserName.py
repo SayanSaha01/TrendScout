@@ -4,10 +4,6 @@ import streamlit.components.v1 as components
 import requests
 from email.message import EmailMessage
 from streamlit_lottie import st_lottie
-from st_aggrid import AgGrid
-from datetime import datetime
-import streamlit.components.v1 as components
-import altair as alt
 
 st.set_page_config(layout="wide")
 
