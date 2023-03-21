@@ -53,7 +53,7 @@ the second section includes classifying the sentiments of the tweets into three 
 2. Clone your forked repository on your host machine  
 
 ```bash
-  git clone <https://github.com/SayanSaha01/TrendScout.git>
+  git clone https://github.com/SayanSaha01/TrendScout.git
   cd TrendScout
 ```
 
